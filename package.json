@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "servidorcadenahotelera",
+  "version": "1.0.0",
+  "description": "API Rest para cadena de hoteles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "API",
+    "Servicios",
+    "Web"
+  ],
+  "author": "Juan David Escobar Álvarez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  }
+}

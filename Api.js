@@ -15,8 +15,8 @@ export class Api {
   //1. Levantar el servidor
   levantarServidor() {
     // Levantando un servidor
-    this.app.listen(3000, function () {
-      console.log("Servidor Operando");
+    this.app.listen(process.env.PORT, function () {
+      console.log("Servidor Operando con exito");
     });
   }
 
